@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -145,6 +149,7 @@ body {
   background-color: #efefef;
   border: 2px solid rgba(255, 255, 255, 0.747);
 }
+
 .scills-title {
   padding-bottom: 10px;
   font-size: 1.05em;
@@ -152,22 +157,23 @@ body {
   text-align: center;
   text-transform: uppercase;
 }
+
 .scills-menu {
   list-style: none;
-  /* background-color: #a79f9f5d;
-  border-radius: 5px; */
 }
+
 .scills-item {
   display: flex;
   align-items: center;
   line-height: 1.8;
   border-bottom: 0.5px solid rgba(197, 191, 191, 0.6);
 }
+
 .scills-item p {
   padding-left: 20px;
 }
 
-/* ----section-code------- */
+/* --------------section-code----------------- */
 .code-blc {
   margin: 15px 0;
   padding: 25px 15px;
@@ -175,6 +181,7 @@ body {
   background-color: #efefef;
   border: 2px solid rgba(255, 255, 255, 0.747);
 }
+
 .code-blc-title {
   padding-bottom: 10px;
   font-size: 1.05em;
@@ -188,7 +195,7 @@ body {
   overflow-x: hidden !important;
 }
 
-/*---sectoion-language  */
+/*------sectoion-language ---------------*/
 .language-blc {
   margin: 15px 0;
   padding: 25px 15px;
@@ -196,6 +203,7 @@ body {
   background-color: #efefef;
   border: 2px solid rgba(255, 255, 255, 0.747);
 }
+
 .language-title {
   padding-bottom: 10px;
   font-size: 1.05em;
@@ -203,6 +211,7 @@ body {
   text-align: center;
   text-transform: uppercase;
 }
+
 .language-menu {
   padding-left: 20px;
 }
@@ -212,7 +221,7 @@ body {
   line-height: 1.5;
 }
 
-/* ---section-education--- */
+/* -------section-education---------------------------- */
 .education-blc {
   margin: 15px 0;
   padding: 25px 15px;
@@ -220,6 +229,7 @@ body {
   background-color: #efefef;
   border: 2px solid rgba(255, 255, 255, 0.747);
 }
+
 .education-title {
   padding-bottom: 10px;
   font-size: 1.05em;
@@ -227,9 +237,11 @@ body {
   text-align: center;
   text-transform: uppercase;
 }
+
 .education-menu {
   padding-left: 20px;
 }
+
 .education-item {
   color: #444;
   /* list-style: none; */
@@ -244,12 +256,15 @@ body {
   background-color: #efefef;
   border: 2px solid rgba(255, 255, 255, 0.747);
 }
+
 .footer-blc a {
   color: #2eaaab;
 }
+
 .footer-blc a:hover {
   color: #a64e33;
 }
+
 .footer-blc {
   text-align: center;
 }
@@ -259,9 +274,11 @@ body {
     display: flex;
     gap: 30px;
   }
+
   .intro-img {
     width: 50%;
   }
+
   .intro-text {
     width: 50%;
   }
@@ -273,6 +290,7 @@ body {
     padding: 10px 0;
     margin-bottom: 10px;
   }
+
   .contact-menu-title {
     margin: 10px 0;
   }
@@ -304,12 +322,14 @@ body {
     width: 680px;
     border-radius: 5px;
   }
+
   .header-menu-item {
     padding: 0 5px 0 0;
     line-height: 22px;
     border-bottom: none;
     border-right: 0.5px solid rgba(197, 191, 191, 0.6);
   }
+
   .header-menu-link {
     font-weight: bold;
     line-height: 40px;
@@ -320,14 +340,17 @@ body {
   .intro-inner {
     gap: 20px;
   }
+
   .intro-img {
     width: 300px;
     padding: 8px;
   }
+
   .intro-text {
     width: 700px;
     padding: 0 10px;
   }
+
   .intro-text h1 {
     padding: 0;
     margin: 10px 0;
@@ -344,18 +367,22 @@ body {
     margin: 10px 0;
     font-size: 1.4em;
   }
+
   .contact-menu {
     display: flex;
     justify-content: space-around;
     padding: 10px 0;
     margin-bottom: 10px;
   }
+
   .contact-menu-title {
     margin: 10px 0;
   }
+
   .contact-menu-item {
     text-align: center;
   }
+
   .contact-menu-link {
     padding: 0;
   }
@@ -367,6 +394,7 @@ body {
     background-color: #a79f9f5d;
     border-radius: 5px;
   }
+
   .scills-item {
     display: block;
     width: 132px;
@@ -375,6 +403,7 @@ body {
     border-right: 0.5px solid rgba(197, 191, 191, 0.6);
     line-height: 22px;
   }
+
   .scills-item p {
     padding: 0;
   }
