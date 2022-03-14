@@ -253,12 +253,12 @@ body {
   margin: 15px 0;
   padding: 25px 15px;
   border-radius: 5px;
-  background-color: #efefef;
+  background-color: #a5a1a1;
   border: 2px solid rgba(255, 255, 255, 0.747);
 }
 
 .footer-blc a {
-  color: #2eaaab;
+  color: #075f5f;
 }
 
 .footer-blc a:hover {
