@@ -192,9 +192,9 @@ body {
   text-transform: uppercase;
 }
 
-/* .code-blc-pre {
+.code-blc-pre {
   overflow: auto;
-} */
+}
 
 /*------sectoion-language ---------------*/
 .language-blc {
