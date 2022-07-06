@@ -26,6 +26,10 @@ body {
 }
 /*------MOBILE FIRST------------ */
 
+.header {
+  position: relative;
+}
+
 .header-body {
   display: flex;
   justify-content: space-between;
@@ -132,14 +136,6 @@ body {
   bottom: 55%;
   transform: rotate(-45deg) translate(0px, 100%);
 }
-/* .header-burger {
-  background-color: var(--blue);
-  border: none;
-} */
-
-/* .menu-show {
-  display: flex;
-} */
 
 /*-----section-intro------ */
 .intro-inner {
